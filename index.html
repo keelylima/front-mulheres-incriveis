@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <title>Mulheres Incríveis</title>
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <img src="/img/logo.png" alt="logo subarashii women">
+            </a>
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Contato</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">O Projeto</a></li>
+                <li><a href="#">Quem fez?</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <div>
+    <section class="container">
+        <div class="projeto">
+            <h1>O projeto</h1>
+            <div class="quebra"></div>
+            <p>A ideia do projeto Subarashii Women é listar mulheres de sucesso em certas áreas do mercado e dar mais
+            visibilidade a elas.
+            A base do projeto é uma API que possui os métodos <span>GET, POST, UPDATE</span> e <span>DELETE</span> feita em Nodejs e
+            consumindo dados do MongoDB.</p>
+
+           <p><span>Atenção</span>, é apenas um projeto didático para o curso de Bootcamp Back-end da {reprograma}. API só ficará
+            disponível com método <span>GET</span> para consulta de terceiros.</p>
+        </div>
+
+        <div class="container-fotos">
             <div>
-                <img src="" alt="">
+                <img src="img/cinema.jpg" alt="cinema">
             </div>
             <div>
-                <img src="" alt="">
+                <img src="img/games.jpg" alt="games">
             </div>
             <div>
-                <img src="" alt="">
+                <img src="img/ti.jpg" alt="TI">
+            </div>
+            <div>
+                <img src="img/ilustracao.jpg" alt="TI">
             </div>
         </div>
     </section>
     <script src="/js/script.js"></script>
 </body>
+
 </html>
